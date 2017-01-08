@@ -1,0 +1,10 @@
+{
+  "name"       : "matgargano/vue-wordpress-plugin",
+  "description": "A starting point for using VueJS in WordPress plugins. This is designed to be hacked and changed.",
+  "homepage"   : "http://matgargano.com/",
+  "type"       : "wordpress-plugin",
+  "license"    : "GPL-2.0+",
+  "require"    : {
+    "composer/installers": "~1.0"
+  }
+}
