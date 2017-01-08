@@ -1,6 +1,6 @@
 {
   "name": "vue-wordpress-plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A starting point for using VueJS in WordPress plugins. This is designed to be hacked and changed.",
   "dependencies": {
     "vue": "^2.1.8"

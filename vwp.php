@@ -3,7 +3,7 @@
 /**
  * Plugin Name:     Vue WordPress Plugin
  * Description:     A starting point for using VueJS in WordPress plugins. This is designed to be hacked and changed.
- * Version: 0.0.2
+ * Version: 0.0.3
  * License: GPL2+
  * Author: Mat Gargano
  * Author URI: http://matgargano.com
