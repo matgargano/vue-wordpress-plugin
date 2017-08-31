@@ -3,8 +3,7 @@
   "version": "0.0.3",
   "description": "A starting point for using VueJS in WordPress plugins. This is designed to be hacked and changed.",
   "dependencies": {
-    "vue": "^2.1.8",
-    "watchify": "^3.9.0"
+    "vue": "^2.1.8"
   },
   "devDependencies": {
     "babel-core": "^6.21.0",
@@ -14,7 +13,8 @@
     "babelify": "^7.3.0",
     "browserify": "^13.1.1",
     "envify": "^4.0.0",
-    "vueify": "^9.4.0"
+    "vueify": "^9.4.0",
+    "watchify": "^3.9.0"
   },
   "scripts": {
     "build-js": "NODE_ENV=production browserify -g envify -t vueify -e js/script.js -o js/build.js -t [ babelify --presets [ es2015 ] ]",
