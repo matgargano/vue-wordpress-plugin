@@ -21,22 +21,7 @@
 
 use VWP\Enqueues;
 
-$plugin_namespace = 'VWP';
-
-spl_autoload_register( function ( $class ) use ( $plugin_namespace ) {
-	$base = explode( '\\', $class );
-	if ( $plugin_namespace === $base[0] ) {
-		$file = __DIR__ . '/' . strtolower( str_replace( [ '\\', '_' ], [
-					DIRECTORY_SEPARATOR,
-					'-'
-				], $class ) . '.php' );
-		if ( file_exists( $file ) ) {
-			require $file;
-		} else {
-			die( sprintf( 'File %s not found', $file ) );
-		}
-	}
-} );
+require __DIR__ . '/vendor/autoload.php';
 
 $enqueues = new Enqueues();
 $enqueues->init();

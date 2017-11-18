@@ -14,7 +14,7 @@ class Enqueues {
 
 	public function enqueue() {
 
-		wp_enqueue_script( 'VWP', plugin_dir_url( dirname( __FILE__ ) ) . 'js/build.js' );
+		wp_enqueue_script( 'VWP', plugin_dir_url( dirname( __FILE__ ) ) . 'dist/js/bundle.js' );
 
 	}
 
